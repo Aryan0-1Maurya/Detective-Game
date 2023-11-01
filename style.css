@@ -1,0 +1,182 @@
+/* 
+
+     ============================================================
+      
+          _____________   ^^^^^^^^^^    ____________________
+
+[   By ~Aryan Maurya Mr.perfect https://amsrportfolio.netlify.app  ]
+
+          _____________   ^^^^^^^^^^    ____________________
+
+     ============================================================
+
+*/
+
+#light{
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    background-color:black;
+}
+
+#room{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:90%;
+    background:url("https://www.dropbox.com/s/b2ohzliwaguhply/ghost-rider250-highresscreenshot00001.jpg?dl=1");
+    background-size:cover;
+    background-position:center;
+    overflow:hidden;
+    cursor:crosshair;
+}
+
+#pass{
+    position:fixed;
+    bottom:0;
+    left:0;
+    background-color:#151515;
+    width:100%;
+    height:10%;
+    overflow:hidden;
+}
+
+#password{
+    position:absolute;
+    width:55%;
+    height:80%;
+    bottom:0;
+    padding:0;
+    border:none;
+    outline:none;
+    top:10%;
+    left:5%;
+    background-color:#333;
+    text-align:center;
+    color:#999;
+    letter-spacing:1px;
+}
+
+#save{
+    position:absolute;
+    width:20%;
+    height:80%;
+    top:10%;
+    right:5%;
+    outline:none;
+    background-color:#333;
+    border:1vmin ridge #222;
+    transition:transform 0.1s;
+    color:#999;
+}
+
+#save:active{
+    transform:scale(0.9);
+}
+
+.dot{
+    position:absolute;
+    width:0;
+    height:0;
+    padding:1vmin;
+    background-color:green;
+    border-radius:50%;
+    left:64%;
+    border:1px solid black;
+}
+
+#dot1{top:11%;}
+#dot2{top:40%;}
+#dot3{top:69%;}
+#dot4{
+    top:11%;
+    left:69%;
+}
+#dot5{
+    top:40%;
+    left:69%;
+}
+#dot6{
+    top:69%;
+    left:69%;
+}
+
+#l1, #l2, #l3, #l4{
+    position:absolute;
+    font-weight:bold;
+    user-select:none;
+    cursor:default;
+}
+
+#failed, #load{
+    position:absolute;
+    color:red;
+    top:45%;
+    left:50%;
+    transform:translate(-50% , -50%) rotate(-7deg) scale(0);
+    font-size:180%;
+    font-style:italic;
+    transition:opacity 1s, transform 0.55s;
+    opacity:0;
+    font-family:Almendra SC;
+    word-spacing:3px;
+    user-select:none;
+}
+
+#load{
+    color:white;
+    opacity:1;
+    transform:translate(-50% , -50%) rotate(-7deg) scale(1);
+}
+
+#replayButton{
+    width:55%;
+    height:80%;
+    position:absolute;
+    left:5%;
+    top:180%;
+    transition:all 1s;
+    background-color:#444;
+    color:#999;
+    outline:none;
+    letter-spacing:1px;
+    border:1vmin ridge #333;
+}
+
+#closed{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color:black;
+    left:0;
+    top:0;
+    transition:left 1s;
+}
+
+#info{
+    color:white;
+    position:absolute;
+    right:5%;
+    top:2%;
+    border:1px solid white;
+    border-radius:10vmin;
+    padding:2px;
+    font-size:90%;
+}
+
+/* 
+
+     ============================================================
+      
+          _____________   ^^^^^^^^^^    ____________________
+
+[   By ~Aryan Maurya Mr.perfect https://amsrportfolio.netlify.app  ]
+
+          _____________   ^^^^^^^^^^    ____________________
+
+     ============================================================
+
+*/
